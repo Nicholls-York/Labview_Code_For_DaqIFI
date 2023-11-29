@@ -17,10 +17,15 @@
 			<Item Name="Constant - Timeout (ms).vi" Type="VI" URL="../Constants/Constant - Timeout (ms).vi"/>
 			<Item Name="Constant - Wait Time (ms).vi" Type="VI" URL="../Constants/Constant - Wait Time (ms).vi"/>
 		</Item>
+		<Item Name="Errors" Type="Folder">
+			<Item Name="Error 5001 - Error Reading JSON Message.vi" Type="VI" URL="../Errors/Error 5001 - Error Reading JSON Message.vi"/>
+			<Item Name="Error Handler.vi" Type="VI" URL="../Errors/Error Handler.vi"/>
+		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Enum - Machine State.ctl" Type="VI" URL="../SubVIs/Enum - Machine State.ctl"/>
 			<Item Name="ProtoBuff - Read How Many Bytes Available to Read.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
+			<Item Name="TCP - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Read of One JSON Message.vi"/>
 			<Item Name="TCP - Read LineFeed Terminated String.vi" Type="VI" URL="../SubVIs/TCP - Read LineFeed Terminated String.vi"/>
 			<Item Name="TCP - Wait.vi" Type="VI" URL="../SubVIs/TCP - Wait.vi"/>
 			<Item Name="TCP - Write and Read a Synchronous Message.vi" Type="VI" URL="../SubVIs/TCP - Write and Read a Synchronous Message.vi"/>
@@ -38,6 +43,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
