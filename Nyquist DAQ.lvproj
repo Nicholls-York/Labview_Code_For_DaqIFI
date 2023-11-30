@@ -10,6 +10,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="API" Type="Folder">
+			<Item Name="API - Close Connection.vi" Type="VI" URL="../SubVIs/API - Close Connection.vi"/>
+			<Item Name="API - Initialize Connection to DAQ.vi" Type="VI" URL="../SubVIs/API - Initialize Connection to DAQ.vi"/>
+			<Item Name="API - Read 1 Analog Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - Read 1 Analog Input Sample on Demand.vi"/>
+		</Item>
 		<Item Name="Constants" Type="Folder">
 			<Item Name="Constant - Analog Input Channel Lookup Table.vi" Type="VI" URL="../Constants/Constant - Analog Input Channel Lookup Table.vi"/>
 			<Item Name="Constant - Default Port Number.vi" Type="VI" URL="../Constants/Constant - Default Port Number.vi"/>
@@ -28,6 +33,7 @@
 			<Item Name="ProtoBuff - Read How Many Bytes Available to Read.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
 			<Item Name="TCP - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Read of One JSON Message.vi"/>
+			<Item Name="TCP - Clear All Buffered Data.vi" Type="VI" URL="../SubVIs/TCP - Clear All Buffered Data.vi"/>
 			<Item Name="TCP - Read LineFeed Terminated String.vi" Type="VI" URL="../SubVIs/TCP - Read LineFeed Terminated String.vi"/>
 			<Item Name="TCP - Wait.vi" Type="VI" URL="../SubVIs/TCP - Wait.vi"/>
 			<Item Name="TCP - Write and Read a Synchronous Message.vi" Type="VI" URL="../SubVIs/TCP - Write and Read a Synchronous Message.vi"/>
@@ -38,7 +44,7 @@
 		</Item>
 		<Item Name="Demo - Read AI Channel 0.vi" Type="VI" URL="../Demo - Read AI Channel 0.vi"/>
 		<Item Name="Demo - Test Message Sequence.vi" Type="VI" URL="../Demo - Test Message Sequence.vi"/>
-		<Item Name="Demo - Test SCPI Message Sequence.vi" Type="VI" URL="../Demo - Test SCPI Message Sequence.vi"/>
+		<Item Name="Testing Read 1 Sample on Demand.vi" Type="VI" URL="../Testing Read 1 Sample on Demand.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
