@@ -18,20 +18,28 @@
 		<Item Name="Constants" Type="Folder">
 			<Item Name="Constant - Analog Input Channel Lookup Table.vi" Type="VI" URL="../Constants/Constant - Analog Input Channel Lookup Table.vi"/>
 			<Item Name="Constant - Default TCP Port Number.vi" Type="VI" URL="../Constants/Constant - Default TCP Port Number.vi"/>
+			<Item Name="Constant - Default UDP Port Number.vi" Type="VI" URL="../Constants/Constant - Default UDP Port Number.vi"/>
 			<Item Name="Constant - Example JSON Text.vi" Type="VI" URL="../Constants/Constant - Example JSON Text.vi"/>
+			<Item Name="Constant - Maximum Analog Channel Number.vi" Type="VI" URL="../Constants/Constant - Maximum Analog Channel Number.vi"/>
+			<Item Name="Constant - Maximum DIO Channel Number.vi" Type="VI" URL="../Constants/Constant - Maximum DIO Channel Number.vi"/>
 			<Item Name="Constant - Timeout (ms).vi" Type="VI" URL="../Constants/Constant - Timeout (ms).vi"/>
 			<Item Name="Constant - Wait Time (ms).vi" Type="VI" URL="../Constants/Constant - Wait Time (ms).vi"/>
 		</Item>
 		<Item Name="Errors" Type="Folder">
 			<Item Name="Error 5001 - Error Reading JSON Message.vi" Type="VI" URL="../Errors/Error 5001 - Error Reading JSON Message.vi"/>
+			<Item Name="Error 5002 - Invalid Digital IO Channel Number.vi" Type="VI" URL="../Errors/Error 5002 - Invalid Digital IO Channel Number.vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../Errors/Error Handler.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="ADC - Convert Integer to Floating Point Voltage.vi" Type="VI" URL="../SubVIs/ADC - Convert Integer to Floating Point Voltage.vi"/>
+			<Item Name="DIO - Enable Digital Output.vi" Type="VI" URL="../SubVIs/DIO - Enable Digital Output.vi"/>
+			<Item Name="DIO - Set Digital Output.vi" Type="VI" URL="../SubVIs/DIO - Set Digital Output.vi"/>
 			<Item Name="JSON - Decode JSON String into Cluster.vi" Type="VI" URL="../SubVIs/JSON - Decode JSON String into Cluster.vi"/>
 			<Item Name="JSON - Replace Equals Character with Colon.vi" Type="VI" URL="../SubVIs/JSON - Replace Equals Character with Colon.vi"/>
 			<Item Name="ProtoBuff - Read How Many Bytes Available to Read.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
 			<Item Name="TCP - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Read of One JSON Message.vi"/>
+			<Item Name="TCP - Asynchronous Write.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Write.vi"/>
 			<Item Name="TCP - Clear All Buffered Data.vi" Type="VI" URL="../SubVIs/TCP - Clear All Buffered Data.vi"/>
 			<Item Name="TCP - Read LineFeed Terminated String.vi" Type="VI" URL="../SubVIs/TCP - Read LineFeed Terminated String.vi"/>
 			<Item Name="TCP - Wait.vi" Type="VI" URL="../SubVIs/TCP - Wait.vi"/>
@@ -42,12 +50,10 @@
 			<Item Name="Enum - Machine State.ctl" Type="VI" URL="../TypeDefs/Enum - Machine State.ctl"/>
 			<Item Name="TypeDef - Cluster Representing Decoded JSON Message.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster Representing Decoded JSON Message.ctl"/>
 		</Item>
-		<Item Name="Constant - Default UDP Port Number.vi" Type="VI" URL="../Constants/Constant - Default UDP Port Number.vi"/>
+		<Item Name="Demo - Read 1 Analog Sample on Demand.vi" Type="VI" URL="../Demo - Read 1 Analog Sample on Demand.vi"/>
 		<Item Name="Demo - Read AI Channel 0.vi" Type="VI" URL="../Demo - Read AI Channel 0.vi"/>
 		<Item Name="Demo - Read Digital Inputs.vi" Type="VI" URL="../Demo - Read Digital Inputs.vi"/>
 		<Item Name="Demo - Test Message Sequence.vi" Type="VI" URL="../Demo - Test Message Sequence.vi"/>
-		<Item Name="Testing DIO Read.vi" Type="VI" URL="../SubVIs/Testing DIO Read.vi"/>
-		<Item Name="Testing Read 1 Sample on Demand.vi" Type="VI" URL="../Testing Read 1 Sample on Demand.vi"/>
 		<Item Name="Testing UDP Discover.vi" Type="VI" URL="../Testing UDP Discover.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
