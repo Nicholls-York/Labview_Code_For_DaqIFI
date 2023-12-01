@@ -28,10 +28,13 @@
 		<Item Name="Errors" Type="Folder">
 			<Item Name="Error 5001 - Error Reading JSON Message.vi" Type="VI" URL="../Errors/Error 5001 - Error Reading JSON Message.vi"/>
 			<Item Name="Error 5002 - Invalid Digital IO Channel Number.vi" Type="VI" URL="../Errors/Error 5002 - Invalid Digital IO Channel Number.vi"/>
+			<Item Name="Error 5003 - Invalid Analog Input Channel Number.vi" Type="VI" URL="../Errors/Error 5003 - Invalid Analog Input Channel Number.vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../Errors/Error Handler.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="ADC - Convert Integer to Floating Point Voltage.vi" Type="VI" URL="../SubVIs/ADC - Convert Integer to Floating Point Voltage.vi"/>
+			<Item Name="ADC - Enable Analog Input Channel.vi" Type="VI" URL="../SubVIs/ADC - Enable Analog Input Channel.vi"/>
+			<Item Name="DIO - Enable Digital Input.vi" Type="VI" URL="../SubVIs/DIO - Enable Digital Input.vi"/>
 			<Item Name="DIO - Enable Digital Output.vi" Type="VI" URL="../SubVIs/DIO - Enable Digital Output.vi"/>
 			<Item Name="DIO - Set Digital Output.vi" Type="VI" URL="../SubVIs/DIO - Set Digital Output.vi"/>
 			<Item Name="JSON - Decode JSON String into Cluster.vi" Type="VI" URL="../SubVIs/JSON - Decode JSON String into Cluster.vi"/>
