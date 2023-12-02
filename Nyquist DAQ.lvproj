@@ -28,6 +28,7 @@
 		</Item>
 		<Item Name="Constants" Type="Folder">
 			<Item Name="Constant - Analog Input Channel Lookup Table.vi" Type="VI" URL="../Constants/Constant - Analog Input Channel Lookup Table.vi"/>
+			<Item Name="Constant - Default Sample Rate (Hz).vi" Type="VI" URL="../Constants/Constant - Default Sample Rate (Hz).vi"/>
 			<Item Name="Constant - Default TCP Port Number.vi" Type="VI" URL="../Constants/Constant - Default TCP Port Number.vi"/>
 			<Item Name="Constant - Default UDP Port Number.vi" Type="VI" URL="../Constants/Constant - Default UDP Port Number.vi"/>
 			<Item Name="Constant - Maximum Analog Channel Number.vi" Type="VI" URL="../Constants/Constant - Maximum Analog Channel Number.vi"/>
