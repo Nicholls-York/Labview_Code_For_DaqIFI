@@ -43,6 +43,7 @@
 			<Item Name="Error 5001 - Error Reading JSON Message.vi" Type="VI" URL="../Errors/Error 5001 - Error Reading JSON Message.vi"/>
 			<Item Name="Error 5002 - Invalid Digital IO Channel Number.vi" Type="VI" URL="../Errors/Error 5002 - Invalid Digital IO Channel Number.vi"/>
 			<Item Name="Error 5003 - Invalid Analog Input Channel Number.vi" Type="VI" URL="../Errors/Error 5003 - Invalid Analog Input Channel Number.vi"/>
+			<Item Name="Error 5004 - TCP Timeout Error.vi" Type="VI" URL="../Errors/Error 5004 - TCP Timeout Error.vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../Errors/Error Handler.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
