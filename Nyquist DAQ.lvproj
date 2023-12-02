@@ -29,12 +29,13 @@
 		</Item>
 		<Item Name="Constants" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Constant - CSV Header.vi" Type="VI" URL="../Constants/Constant - CSV Header.vi"/>
 			<Item Name="Constant - Analog Input Channel Lookup Table.vi" Type="VI" URL="../Constants/Constant - Analog Input Channel Lookup Table.vi"/>
 			<Item Name="Constant - Default TCP Port Number.vi" Type="VI" URL="../Constants/Constant - Default TCP Port Number.vi"/>
 			<Item Name="Constant - Default UDP Port Number.vi" Type="VI" URL="../Constants/Constant - Default UDP Port Number.vi"/>
 			<Item Name="Constant - Default Sample Rate (Hz).vi" Type="VI" URL="../Constants/Constant - Default Sample Rate (Hz).vi"/>
-			<Item Name="Constant - Maximum Analog Channel Number.vi" Type="VI" URL="../Constants/Constant - Maximum Analog Channel Number.vi"/>
-			<Item Name="Constant - Maximum DIO Channel Number.vi" Type="VI" URL="../Constants/Constant - Maximum DIO Channel Number.vi"/>
+			<Item Name="Constant - Number of Analog Channel Numbers.vi" Type="VI" URL="../Constants/Constant - Number of Analog Channel Numbers.vi"/>
+			<Item Name="Constant - Number of DIO Channels.vi" Type="VI" URL="../Constants/Constant - Number of DIO Channels.vi"/>
 			<Item Name="Constant - TCP Timeout (ms).vi" Type="VI" URL="../Constants/Constant - TCP Timeout (ms).vi"/>
 			<Item Name="Constant - TCP Wait Time (ms).vi" Type="VI" URL="../Constants/Constant - TCP Wait Time (ms).vi"/>
 		</Item>
@@ -65,6 +66,7 @@
 			<Item Name="Enum - Machine State.ctl" Type="VI" URL="../TypeDefs/Enum - Machine State.ctl"/>
 			<Item Name="TypeDef - Cluster Representing Decoded JSON Message.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster Representing Decoded JSON Message.ctl"/>
 		</Item>
+		<Item Name="Demo - Log Analog and Digital Inputs to CSV File.vi" Type="VI" URL="../Demo - Log Analog and Digital Inputs to CSV File.vi"/>
 		<Item Name="Demo - Read 1 Analog Input Continuously.vi" Type="VI" URL="../Demo - Read 1 Analog Input Continuously.vi"/>
 		<Item Name="Demo - Read 1 Analog Input on Demand.vi" Type="VI" URL="../Demo - Read 1 Analog Input on Demand.vi"/>
 		<Item Name="Demo - Read Digital Inputs Continuously.vi" Type="VI" URL="../Demo - Read Digital Inputs Continuously.vi"/>
@@ -138,6 +140,11 @@
 				<Item Name="UDP Multicast Write-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Write-Only Open.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
