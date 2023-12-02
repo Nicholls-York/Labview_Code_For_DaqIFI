@@ -19,6 +19,7 @@
 			<Item Name="API - DIO - Enable Digital Input.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Input.vi"/>
 			<Item Name="API - DIO - Enable Digital Output.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Output.vi"/>
 			<Item Name="API - DIO - Set Digital Output.vi" Type="VI" URL="../SubVIs/API - DIO - Set Digital Output.vi"/>
+			<Item Name="API - DIO - Disable Digital IO.vi" Type="VI" URL="../SubVIs/API - DIO - Disable Digital IO.vi"/>
 			<Item Name="API - Stream - Download ADC and DIO Data.vi" Type="VI" URL="../SubVIs/API - Stream - Download ADC and DIO Data.vi"/>
 			<Item Name="API - Stream - Download Digital Input Data.vi" Type="VI" URL="../SubVIs/API - Stream - Download Digital Input Data.vi"/>
 			<Item Name="API - Stream - Download One Datapoint from an Array of ADC Channels.vi" Type="VI" URL="../SubVIs/API - Stream - Download One Datapoint from an Array of ADC Channels.vi"/>
@@ -27,10 +28,11 @@
 			<Item Name="API - Stream - Stop Data Streaming from Device.vi" Type="VI" URL="../SubVIs/API - Stream - Stop Data Streaming from Device.vi"/>
 		</Item>
 		<Item Name="Constants" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Constant - Analog Input Channel Lookup Table.vi" Type="VI" URL="../Constants/Constant - Analog Input Channel Lookup Table.vi"/>
-			<Item Name="Constant - Default Sample Rate (Hz).vi" Type="VI" URL="../Constants/Constant - Default Sample Rate (Hz).vi"/>
 			<Item Name="Constant - Default TCP Port Number.vi" Type="VI" URL="../Constants/Constant - Default TCP Port Number.vi"/>
 			<Item Name="Constant - Default UDP Port Number.vi" Type="VI" URL="../Constants/Constant - Default UDP Port Number.vi"/>
+			<Item Name="Constant - Default Sample Rate (Hz).vi" Type="VI" URL="../Constants/Constant - Default Sample Rate (Hz).vi"/>
 			<Item Name="Constant - Maximum Analog Channel Number.vi" Type="VI" URL="../Constants/Constant - Maximum Analog Channel Number.vi"/>
 			<Item Name="Constant - Maximum DIO Channel Number.vi" Type="VI" URL="../Constants/Constant - Maximum DIO Channel Number.vi"/>
 			<Item Name="Constant - TCP Timeout (ms).vi" Type="VI" URL="../Constants/Constant - TCP Timeout (ms).vi"/>
@@ -49,7 +51,7 @@
 			<Item Name="JSON - Replace Equals Character with Colon.vi" Type="VI" URL="../SubVIs/JSON - Replace Equals Character with Colon.vi"/>
 			<Item Name="ProtoBuff - Read How Many Bytes Available to Read.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
-			<Item Name="TCP - Open Connection.vi" Type="VI" URL="../Constants/TCP - Open Connection.vi"/>
+			<Item Name="TCP - Open Connection.vi" Type="VI" URL="../SubVIs/TCP - Open Connection.vi"/>
 			<Item Name="TCP - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/TCP - Send Initialization Command to DAQ.vi"/>
 			<Item Name="TCP - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Read of One JSON Message.vi"/>
 			<Item Name="TCP - Asynchronous Write.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Write.vi"/>
