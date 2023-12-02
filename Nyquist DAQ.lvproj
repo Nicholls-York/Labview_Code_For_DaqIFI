@@ -11,19 +11,29 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="API" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="API - Close Connection.vi" Type="VI" URL="../SubVIs/API - Close Connection.vi"/>
-			<Item Name="API - Initialize Connection to DAQ.vi" Type="VI" URL="../SubVIs/API - Initialize Connection to DAQ.vi"/>
+			<Item Name="API - Open Connection to DAQ.vi" Type="VI" URL="../SubVIs/API - Open Connection to DAQ.vi"/>
 			<Item Name="API - Read 1 Analog Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - Read 1 Analog Input Sample on Demand.vi"/>
+			<Item Name="API - ADC - Enable Analog Input Channel.vi" Type="VI" URL="../SubVIs/API - ADC - Enable Analog Input Channel.vi"/>
+			<Item Name="API - DIO - Enable Digital Input.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Input.vi"/>
+			<Item Name="API - DIO - Enable Digital Output.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Output.vi"/>
+			<Item Name="API - DIO - Set Digital Output.vi" Type="VI" URL="../SubVIs/API - DIO - Set Digital Output.vi"/>
+			<Item Name="API - Stream - Download ADC and DIO Data.vi" Type="VI" URL="../SubVIs/API - Stream - Download ADC and DIO Data.vi"/>
+			<Item Name="API - Stream - Download Digital Input Data.vi" Type="VI" URL="../SubVIs/API - Stream - Download Digital Input Data.vi"/>
+			<Item Name="API - Stream - Download One Datapoint from an Array of ADC Channels.vi" Type="VI" URL="../SubVIs/API - Stream - Download One Datapoint from an Array of ADC Channels.vi"/>
+			<Item Name="API - Stream - Download One Datapoint from One ADC Channel.vi" Type="VI" URL="../SubVIs/API - Stream - Download One Datapoint from One ADC Channel.vi"/>
+			<Item Name="API - Stream - Start Data Streaming from Device.vi" Type="VI" URL="../SubVIs/API - Stream - Start Data Streaming from Device.vi"/>
+			<Item Name="API - Stream - Stop Data Streaming from Device.vi" Type="VI" URL="../SubVIs/API - Stream - Stop Data Streaming from Device.vi"/>
 		</Item>
 		<Item Name="Constants" Type="Folder">
 			<Item Name="Constant - Analog Input Channel Lookup Table.vi" Type="VI" URL="../Constants/Constant - Analog Input Channel Lookup Table.vi"/>
 			<Item Name="Constant - Default TCP Port Number.vi" Type="VI" URL="../Constants/Constant - Default TCP Port Number.vi"/>
 			<Item Name="Constant - Default UDP Port Number.vi" Type="VI" URL="../Constants/Constant - Default UDP Port Number.vi"/>
-			<Item Name="Constant - Example JSON Text.vi" Type="VI" URL="../Constants/Constant - Example JSON Text.vi"/>
 			<Item Name="Constant - Maximum Analog Channel Number.vi" Type="VI" URL="../Constants/Constant - Maximum Analog Channel Number.vi"/>
 			<Item Name="Constant - Maximum DIO Channel Number.vi" Type="VI" URL="../Constants/Constant - Maximum DIO Channel Number.vi"/>
-			<Item Name="Constant - Timeout (ms).vi" Type="VI" URL="../Constants/Constant - Timeout (ms).vi"/>
-			<Item Name="Constant - Wait Time (ms).vi" Type="VI" URL="../Constants/Constant - Wait Time (ms).vi"/>
+			<Item Name="Constant - TCP Timeout (ms).vi" Type="VI" URL="../Constants/Constant - TCP Timeout (ms).vi"/>
+			<Item Name="Constant - TCP Wait Time (ms).vi" Type="VI" URL="../Constants/Constant - TCP Wait Time (ms).vi"/>
 		</Item>
 		<Item Name="Errors" Type="Folder">
 			<Item Name="Error 5001 - Error Reading JSON Message.vi" Type="VI" URL="../Errors/Error 5001 - Error Reading JSON Message.vi"/>
@@ -32,15 +42,14 @@
 			<Item Name="Error Handler.vi" Type="VI" URL="../Errors/Error Handler.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="ADC - Convert Integer to Floating Point Voltage.vi" Type="VI" URL="../SubVIs/ADC - Convert Integer to Floating Point Voltage.vi"/>
-			<Item Name="ADC - Enable Analog Input Channel.vi" Type="VI" URL="../SubVIs/ADC - Enable Analog Input Channel.vi"/>
-			<Item Name="DIO - Enable Digital Input.vi" Type="VI" URL="../SubVIs/DIO - Enable Digital Input.vi"/>
-			<Item Name="DIO - Enable Digital Output.vi" Type="VI" URL="../SubVIs/DIO - Enable Digital Output.vi"/>
-			<Item Name="DIO - Set Digital Output.vi" Type="VI" URL="../SubVIs/DIO - Set Digital Output.vi"/>
 			<Item Name="JSON - Decode JSON String into Cluster.vi" Type="VI" URL="../SubVIs/JSON - Decode JSON String into Cluster.vi"/>
 			<Item Name="JSON - Replace Equals Character with Colon.vi" Type="VI" URL="../SubVIs/JSON - Replace Equals Character with Colon.vi"/>
 			<Item Name="ProtoBuff - Read How Many Bytes Available to Read.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
+			<Item Name="TCP - Open Connection.vi" Type="VI" URL="../Constants/TCP - Open Connection.vi"/>
+			<Item Name="TCP - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/TCP - Send Initialization Command to DAQ.vi"/>
 			<Item Name="TCP - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Read of One JSON Message.vi"/>
 			<Item Name="TCP - Asynchronous Write.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Write.vi"/>
 			<Item Name="TCP - Clear All Buffered Data.vi" Type="VI" URL="../SubVIs/TCP - Clear All Buffered Data.vi"/>
@@ -53,10 +62,9 @@
 			<Item Name="Enum - Machine State.ctl" Type="VI" URL="../TypeDefs/Enum - Machine State.ctl"/>
 			<Item Name="TypeDef - Cluster Representing Decoded JSON Message.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster Representing Decoded JSON Message.ctl"/>
 		</Item>
-		<Item Name="Demo - Read 1 Analog Sample on Demand.vi" Type="VI" URL="../Demo - Read 1 Analog Sample on Demand.vi"/>
-		<Item Name="Demo - Read AI Channel 0.vi" Type="VI" URL="../Demo - Read AI Channel 0.vi"/>
-		<Item Name="Demo - Read Digital Inputs.vi" Type="VI" URL="../Demo - Read Digital Inputs.vi"/>
-		<Item Name="Demo - Test Message Sequence.vi" Type="VI" URL="../Demo - Test Message Sequence.vi"/>
+		<Item Name="Demo - Read 1 Analog Input Continuously.vi" Type="VI" URL="../Demo - Read 1 Analog Input Continuously.vi"/>
+		<Item Name="Demo - Read 1 Analog Input on Demand.vi" Type="VI" URL="../Demo - Read 1 Analog Input on Demand.vi"/>
+		<Item Name="Demo - Read Digital Inputs Continuously.vi" Type="VI" URL="../Demo - Read Digital Inputs Continuously.vi"/>
 		<Item Name="Testing UDP Discover.vi" Type="VI" URL="../Testing UDP Discover.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
