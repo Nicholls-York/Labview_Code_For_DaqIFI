@@ -12,9 +12,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="API" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="API - Close Connection.vi" Type="VI" URL="../SubVIs/API - Close Connection.vi"/>
 			<Item Name="API - Open Connection to DAQ.vi" Type="VI" URL="../SubVIs/API - Open Connection to DAQ.vi"/>
-			<Item Name="API - Read 1 Analog Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - Read 1 Analog Input Sample on Demand.vi"/>
+			<Item Name="API - Close Connection.vi" Type="VI" URL="../SubVIs/API - Close Connection.vi"/>
+			<Item Name="API - On Demand - Read 1 Analog Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Read 1 Analog Input Sample on Demand.vi"/>
+			<Item Name="API - On Demand - Read 1 Digital Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Read 1 Digital Input Sample on Demand.vi"/>
+			<Item Name="API - On Demand - Write 1 Digital Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Write 1 Digital Input Sample on Demand.vi"/>
 			<Item Name="API - ADC - Enable Analog Input Channel.vi" Type="VI" URL="../SubVIs/API - ADC - Enable Analog Input Channel.vi"/>
 			<Item Name="API - DIO - Enable Digital Input.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Input.vi"/>
 			<Item Name="API - DIO - Enable Digital Output.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Output.vi"/>
