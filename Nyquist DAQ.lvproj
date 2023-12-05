@@ -46,6 +46,9 @@
 			<Item Name="Error 5002 - Invalid Digital IO Channel Number.vi" Type="VI" URL="../Errors/Error 5002 - Invalid Digital IO Channel Number.vi"/>
 			<Item Name="Error 5003 - Invalid Analog Input Channel Number.vi" Type="VI" URL="../Errors/Error 5003 - Invalid Analog Input Channel Number.vi"/>
 			<Item Name="Error 5004 - TCP Timeout Error.vi" Type="VI" URL="../Errors/Error 5004 - TCP Timeout Error.vi"/>
+			<Item Name="Error 5005 - ProtoBuf Message Was Empty.vi" Type="VI" URL="../Errors/Error 5005 - ProtoBuf Message Was Empty.vi"/>
+			<Item Name="Error 5006 - ProtoBuf Message Could Not Be Decoded.vi" Type="VI" URL="../Errors/Error 5006 - ProtoBuf Message Could Not Be Decoded.vi"/>
+			<Item Name="Error 5007 - Unrecognized Error While Processing ProtoBuf Message.vi" Type="VI" URL="../Errors/Error 5007 - Unrecognized Error While Processing ProtoBuf Message.vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../Errors/Error Handler.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -53,7 +56,9 @@
 			<Item Name="ADC - Convert Integer to Floating Point Voltage.vi" Type="VI" URL="../SubVIs/ADC - Convert Integer to Floating Point Voltage.vi"/>
 			<Item Name="JSON - Decode JSON String into Cluster.vi" Type="VI" URL="../SubVIs/JSON - Decode JSON String into Cluster.vi"/>
 			<Item Name="JSON - Replace Equals Character with Colon.vi" Type="VI" URL="../SubVIs/JSON - Replace Equals Character with Colon.vi"/>
-			<Item Name="ProtoBuff - Read How Many Bytes Available to Read.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read.vi"/>
+			<Item Name="ProtoBuff - Read How Many Bytes Available to Read from TCP.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read from TCP.vi"/>
+			<Item Name="ProtoBuff - Separate Message Size and Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Separate Message Size and Message.vi"/>
+			<Item Name="ProtoBuff - Call Protoc EXE To Decode Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Call Protoc EXE To Decode Message.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
 			<Item Name="TCP - Open Connection.vi" Type="VI" URL="../SubVIs/TCP - Open Connection.vi"/>
 			<Item Name="TCP - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/TCP - Send Initialization Command to DAQ.vi"/>
@@ -133,6 +138,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
