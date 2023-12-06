@@ -12,9 +12,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="API" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="API - Close Connection.vi" Type="VI" URL="../SubVIs/API - Close Connection.vi"/>
 			<Item Name="API - Open Connection to DAQ.vi" Type="VI" URL="../SubVIs/API - Open Connection to DAQ.vi"/>
-			<Item Name="API - Read 1 Analog Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - Read 1 Analog Input Sample on Demand.vi"/>
+			<Item Name="API - Close Connection.vi" Type="VI" URL="../SubVIs/API - Close Connection.vi"/>
+			<Item Name="API - On Demand - Read 1 Analog Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Read 1 Analog Input Sample on Demand.vi"/>
+			<Item Name="API - On Demand - Read 1 Digital Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Read 1 Digital Input Sample on Demand.vi"/>
+			<Item Name="API - On Demand - Write 1 Digital Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Write 1 Digital Input Sample on Demand.vi"/>
 			<Item Name="API - ADC - Enable Analog Input Channel.vi" Type="VI" URL="../SubVIs/API - ADC - Enable Analog Input Channel.vi"/>
 			<Item Name="API - DIO - Enable Digital Input.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Input.vi"/>
 			<Item Name="API - DIO - Enable Digital Output.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Output.vi"/>
@@ -44,6 +46,9 @@
 			<Item Name="Error 5002 - Invalid Digital IO Channel Number.vi" Type="VI" URL="../Errors/Error 5002 - Invalid Digital IO Channel Number.vi"/>
 			<Item Name="Error 5003 - Invalid Analog Input Channel Number.vi" Type="VI" URL="../Errors/Error 5003 - Invalid Analog Input Channel Number.vi"/>
 			<Item Name="Error 5004 - TCP Timeout Error.vi" Type="VI" URL="../Errors/Error 5004 - TCP Timeout Error.vi"/>
+			<Item Name="Error 5005 - ProtoBuf Message Was Empty.vi" Type="VI" URL="../Errors/Error 5005 - ProtoBuf Message Was Empty.vi"/>
+			<Item Name="Error 5006 - ProtoBuf Message Could Not Be Decoded.vi" Type="VI" URL="../Errors/Error 5006 - ProtoBuf Message Could Not Be Decoded.vi"/>
+			<Item Name="Error 5007 - Unrecognized Error While Processing ProtoBuf Message.vi" Type="VI" URL="../Errors/Error 5007 - Unrecognized Error While Processing ProtoBuf Message.vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../Errors/Error Handler.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -51,7 +56,15 @@
 			<Item Name="ADC - Convert Integer to Floating Point Voltage.vi" Type="VI" URL="../SubVIs/ADC - Convert Integer to Floating Point Voltage.vi"/>
 			<Item Name="JSON - Decode JSON String into Cluster.vi" Type="VI" URL="../SubVIs/JSON - Decode JSON String into Cluster.vi"/>
 			<Item Name="JSON - Replace Equals Character with Colon.vi" Type="VI" URL="../SubVIs/JSON - Replace Equals Character with Colon.vi"/>
-			<Item Name="ProtoBuff - Read How Many Bytes Available to Read.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read.vi"/>
+			<Item Name="String - Convert IP Address Byte Array to String.vi" Type="VI" URL="../SubVIs/String - Convert IP Address Byte Array to String.vi"/>
+			<Item Name="String - Convert MAC Address Hexidecimal Array to String.vi" Type="VI" URL="../SubVIs/String - Convert MAC Address Hexidecimal Array to String.vi"/>
+			<Item Name="String - Parse String for Quotation Enclosed Text.vi" Type="VI" URL="../SubVIs/String - Parse String for Quotation Enclosed Text.vi"/>
+			<Item Name="String - Find IP MAC and Model Number from ProtoBuf String.vi" Type="VI" URL="../SubVIs/String - Find IP MAC and Model Number from ProtoBuf String.vi"/>
+			<Item Name="ProtoBuff - Read How Many Bytes Available to Read from TCP.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read from TCP.vi"/>
+			<Item Name="ProtoBuff - Separate Message Size and Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Separate Message Size and Message.vi"/>
+			<Item Name="ProtoBuff - Call Protoc EXE To Decode Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Call Protoc EXE To Decode Message.vi"/>
+			<Item Name="ProtoBuff - Decode Array of Bytes.vi" Type="VI" URL="../SubVIs/ProtoBuff - Decode Array of Bytes.vi"/>
+			<Item Name="UDP - Discover DAQ Devices on the Network.vi" Type="VI" URL="../SubVIs/UDP - Discover DAQ Devices on the Network.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
 			<Item Name="TCP - Open Connection.vi" Type="VI" URL="../SubVIs/TCP - Open Connection.vi"/>
 			<Item Name="TCP - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/TCP - Send Initialization Command to DAQ.vi"/>
@@ -65,13 +78,13 @@
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="Enum - Machine State.ctl" Type="VI" URL="../TypeDefs/Enum - Machine State.ctl"/>
+			<Item Name="TypeDef - Cluster of DAQiFi Basic Device Properties.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster of DAQiFi Basic Device Properties.ctl"/>
 			<Item Name="TypeDef - Cluster Representing Decoded JSON Message.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster Representing Decoded JSON Message.ctl"/>
 		</Item>
 		<Item Name="Demo - Log Analog and Digital Inputs to CSV File.vi" Type="VI" URL="../Demo - Log Analog and Digital Inputs to CSV File.vi"/>
 		<Item Name="Demo - Read 1 Analog Input Continuously.vi" Type="VI" URL="../Demo - Read 1 Analog Input Continuously.vi"/>
 		<Item Name="Demo - Read 1 Analog Input on Demand.vi" Type="VI" URL="../Demo - Read 1 Analog Input on Demand.vi"/>
 		<Item Name="Demo - Read Digital Inputs Continuously.vi" Type="VI" URL="../Demo - Read Digital Inputs Continuously.vi"/>
-		<Item Name="Testing UDP Discover.vi" Type="VI" URL="../Testing UDP Discover.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -131,14 +144,11 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="UDP Multicast Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Open.vi"/>
-				<Item Name="UDP Multicast Read-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Only Open.vi"/>
-				<Item Name="UDP Multicast Read-Write Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Read-Write Open.vi"/>
-				<Item Name="UDP Multicast Write-Only Open.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/UDP Multicast Write-Only Open.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
