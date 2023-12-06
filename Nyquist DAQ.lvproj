@@ -56,9 +56,14 @@
 			<Item Name="ADC - Convert Integer to Floating Point Voltage.vi" Type="VI" URL="../SubVIs/ADC - Convert Integer to Floating Point Voltage.vi"/>
 			<Item Name="JSON - Decode JSON String into Cluster.vi" Type="VI" URL="../SubVIs/JSON - Decode JSON String into Cluster.vi"/>
 			<Item Name="JSON - Replace Equals Character with Colon.vi" Type="VI" URL="../SubVIs/JSON - Replace Equals Character with Colon.vi"/>
+			<Item Name="String - Convert IP Address Byte Array to String.vi" Type="VI" URL="../SubVIs/String - Convert IP Address Byte Array to String.vi"/>
+			<Item Name="String - Convert MAC Address Hexidecimal Array to String.vi" Type="VI" URL="../SubVIs/String - Convert MAC Address Hexidecimal Array to String.vi"/>
+			<Item Name="String - Parse String for Quotation Enclosed Text.vi" Type="VI" URL="../SubVIs/String - Parse String for Quotation Enclosed Text.vi"/>
+			<Item Name="String - Find IP MAC and Model Number from ProtoBuf String.vi" Type="VI" URL="../SubVIs/String - Find IP MAC and Model Number from ProtoBuf String.vi"/>
 			<Item Name="ProtoBuff - Read How Many Bytes Available to Read from TCP.vi" Type="VI" URL="../SubVIs/ProtoBuff - Read How Many Bytes Available to Read from TCP.vi"/>
 			<Item Name="ProtoBuff - Separate Message Size and Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Separate Message Size and Message.vi"/>
 			<Item Name="ProtoBuff - Call Protoc EXE To Decode Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Call Protoc EXE To Decode Message.vi"/>
+			<Item Name="ProtoBuff - Decode Array of Bytes.vi" Type="VI" URL="../SubVIs/ProtoBuff - Decode Array of Bytes.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
 			<Item Name="TCP - Open Connection.vi" Type="VI" URL="../SubVIs/TCP - Open Connection.vi"/>
 			<Item Name="TCP - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/TCP - Send Initialization Command to DAQ.vi"/>
