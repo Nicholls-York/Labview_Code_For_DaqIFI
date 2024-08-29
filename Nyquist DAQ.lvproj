@@ -68,25 +68,33 @@
 			<Item Name="ProtoBuff - Call Protoc EXE To Decode Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Call Protoc EXE To Decode Message.vi"/>
 			<Item Name="ProtoBuff - Decode Array of Bytes.vi" Type="VI" URL="../SubVIs/ProtoBuff - Decode Array of Bytes.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
-			<Item Name="USB - Discover DAQ Devices on USB to Serial Ports.vi" Type="VI" URL="../SubVIs/USB - Discover DAQ Devices on USB to Serial Ports.vi"/>
+			<Item Name="Polymorphic - Open Connection.vi" Type="VI" URL="../SubVIs/Polymorphic - Open Connection.vi"/>
+			<Item Name="Polymorphic - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/Polymorphic - Send Initialization Command to DAQ.vi"/>
+			<Item Name="Polymorphic - Read LineFeed Terminated String.vi" Type="VI" URL="../SubVIs/Polymorphic - Read LineFeed Terminated String.vi"/>
+			<Item Name="Polymorphic - Wait.vi" Type="VI" URL="../SubVIs/Polymorphic - Wait.vi"/>
+			<Item Name="Polymorphic - Write and Read a Synchronous Message.vi" Type="VI" URL="../SubVIs/Polymorphic - Write and Read a Synchronous Message.vi"/>
+			<Item Name="Polymorphic - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/Polymorphic - Asynchronous Read of One JSON Message.vi"/>
+			<Item Name="Polymorphic - Asynchronous Write.vi" Type="VI" URL="../SubVIs/Polymorphic - Asynchronous Write.vi"/>
 			<Item Name="USB - Open Connection.vi" Type="VI" URL="../SubVIs/USB - Open Connection.vi"/>
+			<Item Name="USB - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/USB - Send Initialization Command to DAQ.vi"/>
 			<Item Name="USB - Read LineFeed Terminated String.vi" Type="VI" URL="../SubVIs/USB - Read LineFeed Terminated String.vi"/>
 			<Item Name="USB - Wait.vi" Type="VI" URL="../SubVIs/USB - Wait.vi"/>
 			<Item Name="USB - Write and Read a Synchronous Message.vi" Type="VI" URL="../SubVIs/USB - Write and Read a Synchronous Message.vi"/>
+			<Item Name="USB - Discover DAQ Devices on USB to Serial Ports.vi" Type="VI" URL="../SubVIs/USB - Discover DAQ Devices on USB to Serial Ports.vi"/>
 			<Item Name="USB - Write and Read Array of Synchronous Messages.vi" Type="VI" URL="../SubVIs/USB - Write and Read Array of Synchronous Messages.vi"/>
 			<Item Name="USB - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/USB - Asynchronous Read of One JSON Message.vi"/>
 			<Item Name="USB - Asynchronous Write.vi" Type="VI" URL="../SubVIs/USB - Asynchronous Write.vi"/>
 			<Item Name="UDP - Discover DAQ Devices on the Network.vi" Type="VI" URL="../SubVIs/UDP - Discover DAQ Devices on the Network.vi"/>
 			<Item Name="UDP - Find UDP Broadcast IPs.vi" Type="VI" URL="../SubVIs/UDP - Find UDP Broadcast IPs.vi"/>
-			<Item Name="TCP - Read MAC Address and Serial Number.vi" Type="VI" URL="../SubVIs/TCP - Read MAC Address and Serial Number.vi"/>
 			<Item Name="TCP - Open Connection.vi" Type="VI" URL="../SubVIs/TCP - Open Connection.vi"/>
 			<Item Name="TCP - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/TCP - Send Initialization Command to DAQ.vi"/>
-			<Item Name="TCP - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Read of One JSON Message.vi"/>
-			<Item Name="TCP - Asynchronous Write.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Write.vi"/>
-			<Item Name="TCP - Clear All Buffered Data.vi" Type="VI" URL="../SubVIs/TCP - Clear All Buffered Data.vi"/>
 			<Item Name="TCP - Read LineFeed Terminated String.vi" Type="VI" URL="../SubVIs/TCP - Read LineFeed Terminated String.vi"/>
 			<Item Name="TCP - Wait.vi" Type="VI" URL="../SubVIs/TCP - Wait.vi"/>
 			<Item Name="TCP - Write and Read a Synchronous Message.vi" Type="VI" URL="../SubVIs/TCP - Write and Read a Synchronous Message.vi"/>
+			<Item Name="TCP - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Read of One JSON Message.vi"/>
+			<Item Name="TCP - Asynchronous Write.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Write.vi"/>
+			<Item Name="TCP - Read MAC Address and Serial Number.vi" Type="VI" URL="../SubVIs/TCP - Read MAC Address and Serial Number.vi"/>
+			<Item Name="TCP - Clear All Buffered Data.vi" Type="VI" URL="../SubVIs/TCP - Clear All Buffered Data.vi"/>
 			<Item Name="TCP - Write and Read Array of Synchronous Messages.vi" Type="VI" URL="../SubVIs/TCP - Write and Read Array of Synchronous Messages.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
@@ -168,6 +176,7 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
+				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
