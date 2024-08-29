@@ -103,6 +103,7 @@
 			<Item Name="TypeDef - Cluster of DAQiFi Device Properties.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster of DAQiFi Device Properties.ctl"/>
 			<Item Name="TypeDef - Cluster Representing Decoded JSON Message.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster Representing Decoded JSON Message.ctl"/>
 		</Item>
+		<Item Name="Application.vi" Type="VI" URL="../Application.vi"/>
 		<Item Name="Demo - Log Analog and Digital Inputs to CSV File.vi" Type="VI" URL="../Demo - Log Analog and Digital Inputs to CSV File.vi"/>
 		<Item Name="Demo - Read 1 Analog Input Continuously.vi" Type="VI" URL="../Demo - Read 1 Analog Input Continuously.vi"/>
 		<Item Name="Demo - Read 1 Analog Input on Demand.vi" Type="VI" URL="../Demo - Read 1 Analog Input on Demand.vi"/>
