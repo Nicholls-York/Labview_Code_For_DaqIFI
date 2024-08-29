@@ -38,6 +38,7 @@
 			<Item Name="Constant - Default Sample Rate (Hz).vi" Type="VI" URL="../Constants/Constant - Default Sample Rate (Hz).vi"/>
 			<Item Name="Constant - Number of Analog Channel Numbers.vi" Type="VI" URL="../Constants/Constant - Number of Analog Channel Numbers.vi"/>
 			<Item Name="Constant - Number of DIO Channels.vi" Type="VI" URL="../Constants/Constant - Number of DIO Channels.vi"/>
+			<Item Name="Constant - Default Serial Baud Rate.vi" Type="VI" URL="../Constants/Constant - Default Serial Baud Rate.vi"/>
 			<Item Name="Constant - Serial Wait Time (ms).vi" Type="VI" URL="../Constants/Constant - Serial Wait Time (ms).vi"/>
 			<Item Name="Constant - Serial Timeout (ms).vi" Type="VI" URL="../Constants/Constant - Serial Timeout (ms).vi"/>
 			<Item Name="Constant - TCP Timeout (ms).vi" Type="VI" URL="../Constants/Constant - TCP Timeout (ms).vi"/>
@@ -66,10 +67,17 @@
 			<Item Name="ProtoBuff - Separate Message Size and Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Separate Message Size and Message.vi"/>
 			<Item Name="ProtoBuff - Call Protoc EXE To Decode Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Call Protoc EXE To Decode Message.vi"/>
 			<Item Name="ProtoBuff - Decode Array of Bytes.vi" Type="VI" URL="../SubVIs/ProtoBuff - Decode Array of Bytes.vi"/>
+			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
+			<Item Name="USB - Discover DAQ Devices on USB to Serial Ports.vi" Type="VI" URL="../SubVIs/USB - Discover DAQ Devices on USB to Serial Ports.vi"/>
+			<Item Name="USB - Open Connection.vi" Type="VI" URL="../SubVIs/USB - Open Connection.vi"/>
+			<Item Name="USB - Read LineFeed Terminated String.vi" Type="VI" URL="../SubVIs/USB - Read LineFeed Terminated String.vi"/>
+			<Item Name="USB - Wait.vi" Type="VI" URL="../SubVIs/USB - Wait.vi"/>
+			<Item Name="USB - Write and Read a Synchronous Message.vi" Type="VI" URL="../SubVIs/USB - Write and Read a Synchronous Message.vi"/>
+			<Item Name="USB - Write and Read Array of Synchronous Messages.vi" Type="VI" URL="../SubVIs/USB - Write and Read Array of Synchronous Messages.vi"/>
+			<Item Name="USB - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/USB - Asynchronous Read of One JSON Message.vi"/>
+			<Item Name="USB - Asynchronous Write.vi" Type="VI" URL="../SubVIs/USB - Asynchronous Write.vi"/>
 			<Item Name="UDP - Discover DAQ Devices on the Network.vi" Type="VI" URL="../SubVIs/UDP - Discover DAQ Devices on the Network.vi"/>
 			<Item Name="UDP - Find UDP Broadcast IPs.vi" Type="VI" URL="../SubVIs/UDP - Find UDP Broadcast IPs.vi"/>
-			<Item Name="USB - Discover DAQ Devices on USB to Serial Ports.vi" Type="VI" URL="../SubVIs/USB - Discover DAQ Devices on USB to Serial Ports.vi"/>
-			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
 			<Item Name="TCP - Read MAC Address and Serial Number.vi" Type="VI" URL="../SubVIs/TCP - Read MAC Address and Serial Number.vi"/>
 			<Item Name="TCP - Open Connection.vi" Type="VI" URL="../SubVIs/TCP - Open Connection.vi"/>
 			<Item Name="TCP - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/TCP - Send Initialization Command to DAQ.vi"/>
