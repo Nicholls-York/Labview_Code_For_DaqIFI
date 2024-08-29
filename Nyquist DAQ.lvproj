@@ -38,6 +38,8 @@
 			<Item Name="Constant - Default Sample Rate (Hz).vi" Type="VI" URL="../Constants/Constant - Default Sample Rate (Hz).vi"/>
 			<Item Name="Constant - Number of Analog Channel Numbers.vi" Type="VI" URL="../Constants/Constant - Number of Analog Channel Numbers.vi"/>
 			<Item Name="Constant - Number of DIO Channels.vi" Type="VI" URL="../Constants/Constant - Number of DIO Channels.vi"/>
+			<Item Name="Constant - Serial Wait Time (ms).vi" Type="VI" URL="../Constants/Constant - Serial Wait Time (ms).vi"/>
+			<Item Name="Constant - Serial Timeout (ms).vi" Type="VI" URL="../Constants/Constant - Serial Timeout (ms).vi"/>
 			<Item Name="Constant - TCP Timeout (ms).vi" Type="VI" URL="../Constants/Constant - TCP Timeout (ms).vi"/>
 			<Item Name="Constant - TCP Wait Time (ms).vi" Type="VI" URL="../Constants/Constant - TCP Wait Time (ms).vi"/>
 		</Item>
@@ -65,7 +67,10 @@
 			<Item Name="ProtoBuff - Call Protoc EXE To Decode Message.vi" Type="VI" URL="../SubVIs/ProtoBuff - Call Protoc EXE To Decode Message.vi"/>
 			<Item Name="ProtoBuff - Decode Array of Bytes.vi" Type="VI" URL="../SubVIs/ProtoBuff - Decode Array of Bytes.vi"/>
 			<Item Name="UDP - Discover DAQ Devices on the Network.vi" Type="VI" URL="../SubVIs/UDP - Discover DAQ Devices on the Network.vi"/>
+			<Item Name="UDP - Find UDP Broadcast IPs.vi" Type="VI" URL="../SubVIs/UDP - Find UDP Broadcast IPs.vi"/>
+			<Item Name="USB - Discover DAQ Devices on USB to Serial Ports.vi" Type="VI" URL="../SubVIs/USB - Discover DAQ Devices on USB to Serial Ports.vi"/>
 			<Item Name="SCPI - Lookup AI Channel Code.vi" Type="VI" URL="../SubVIs/SCPI - Lookup AI Channel Code.vi"/>
+			<Item Name="TCP - Read MAC Address and Serial Number.vi" Type="VI" URL="../SubVIs/TCP - Read MAC Address and Serial Number.vi"/>
 			<Item Name="TCP - Open Connection.vi" Type="VI" URL="../SubVIs/TCP - Open Connection.vi"/>
 			<Item Name="TCP - Send Initialization Command to DAQ.vi" Type="VI" URL="../SubVIs/TCP - Send Initialization Command to DAQ.vi"/>
 			<Item Name="TCP - Asynchronous Read of One JSON Message.vi" Type="VI" URL="../SubVIs/TCP - Asynchronous Read of One JSON Message.vi"/>
@@ -77,8 +82,9 @@
 			<Item Name="TCP - Write and Read Array of Synchronous Messages.vi" Type="VI" URL="../SubVIs/TCP - Write and Read Array of Synchronous Messages.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
+			<Item Name="Enum - Connection Type.ctl" Type="VI" URL="../TypeDefs/Enum - Connection Type.ctl"/>
 			<Item Name="Enum - Machine State.ctl" Type="VI" URL="../TypeDefs/Enum - Machine State.ctl"/>
-			<Item Name="TypeDef - Cluster of DAQiFi Basic Device Properties.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster of DAQiFi Basic Device Properties.ctl"/>
+			<Item Name="TypeDef - Cluster of DAQiFi Device Properties.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster of DAQiFi Device Properties.ctl"/>
 			<Item Name="TypeDef - Cluster Representing Decoded JSON Message.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster Representing Decoded JSON Message.ctl"/>
 		</Item>
 		<Item Name="Demo - Log Analog and Digital Inputs to CSV File.vi" Type="VI" URL="../Demo - Log Analog and Digital Inputs to CSV File.vi"/>
@@ -150,6 +156,10 @@
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Find Search Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Find Search Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
