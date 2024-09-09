@@ -22,6 +22,7 @@
 			<Item Name="API - DIO - Enable Digital Output.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Output.vi"/>
 			<Item Name="API - DIO - Set Digital Output.vi" Type="VI" URL="../SubVIs/API - DIO - Set Digital Output.vi"/>
 			<Item Name="API - DIO - Disable Digital IO.vi" Type="VI" URL="../SubVIs/API - DIO - Disable Digital IO.vi"/>
+			<Item Name="API - PWM - Enable PWM Output.vi" Type="VI" URL="../SubVIs/API - PWM - Enable PWM Output.vi"/>
 			<Item Name="API - Stream - Download ADC and DIO Data.vi" Type="VI" URL="../SubVIs/API - Stream - Download ADC and DIO Data.vi"/>
 			<Item Name="API - Stream - Download Digital Input Data.vi" Type="VI" URL="../SubVIs/API - Stream - Download Digital Input Data.vi"/>
 			<Item Name="API - Stream - Download One Datapoint from an Array of ADC Channels.vi" Type="VI" URL="../SubVIs/API - Stream - Download One Datapoint from an Array of ADC Channels.vi"/>
@@ -52,6 +53,7 @@
 			<Item Name="Error 5005 - ProtoBuf Message Was Empty.vi" Type="VI" URL="../Errors/Error 5005 - ProtoBuf Message Was Empty.vi"/>
 			<Item Name="Error 5006 - ProtoBuf Message Could Not Be Decoded.vi" Type="VI" URL="../Errors/Error 5006 - ProtoBuf Message Could Not Be Decoded.vi"/>
 			<Item Name="Error 5007 - Unrecognized Error While Processing ProtoBuf Message.vi" Type="VI" URL="../Errors/Error 5007 - Unrecognized Error While Processing ProtoBuf Message.vi"/>
+			<Item Name="Error 5008 - Invalid PWM Channel Number.vi" Type="VI" URL="../Errors/Error 5008 - Invalid PWM Channel Number.vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../Errors/Error Handler.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -155,6 +157,7 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="JKI JSON Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/JSON/JKI JSON Serialization.lvlib"/>
 				<Item Name="JKI Serialization.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Serialization/Core/JKI Serialization.lvlib"/>
 				<Item Name="JKI Unicode.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/_JKI.lib/Unicode/JKI Unicode.lvlib"/>
