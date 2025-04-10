@@ -107,6 +107,7 @@
 		</Item>
 		<Item Name="Application.vi" Type="VI" URL="../Application.vi"/>
 		<Item Name="Demo - Log Analog and Digital Inputs to CSV File.vi" Type="VI" URL="../Demo - Log Analog and Digital Inputs to CSV File.vi"/>
+		<Item Name="Demo - Output PWM Signal and Read it Back with a Digital Input.vi" Type="VI" URL="../Demo - Output PWM Signal and Read it Back with a Digital Input.vi"/>
 		<Item Name="Demo - Read 1 Analog Input Continuously.vi" Type="VI" URL="../Demo - Read 1 Analog Input Continuously.vi"/>
 		<Item Name="Demo - Read 1 Analog Input on Demand.vi" Type="VI" URL="../Demo - Read 1 Analog Input on Demand.vi"/>
 		<Item Name="Demo - Read Digital Inputs Continuously.vi" Type="VI" URL="../Demo - Read Digital Inputs Continuously.vi"/>
