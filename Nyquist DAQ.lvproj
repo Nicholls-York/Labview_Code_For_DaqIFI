@@ -16,7 +16,7 @@
 			<Item Name="API - Close Connection.vi" Type="VI" URL="../SubVIs/API - Close Connection.vi"/>
 			<Item Name="API - On Demand - Read 1 Analog Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Read 1 Analog Input Sample on Demand.vi"/>
 			<Item Name="API - On Demand - Read 1 Digital Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Read 1 Digital Input Sample on Demand.vi"/>
-			<Item Name="API - On Demand - Write 1 Digital Input Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Write 1 Digital Input Sample on Demand.vi"/>
+			<Item Name="API - On Demand - Write 1 Digital Output Sample on Demand.vi" Type="VI" URL="../SubVIs/API - On Demand - Write 1 Digital Output Sample on Demand.vi"/>
 			<Item Name="API - ADC - Enable Analog Input Channel.vi" Type="VI" URL="../SubVIs/API - ADC - Enable Analog Input Channel.vi"/>
 			<Item Name="API - DIO - Enable Digital Input.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Input.vi"/>
 			<Item Name="API - DIO - Enable Digital Output.vi" Type="VI" URL="../SubVIs/API - DIO - Enable Digital Output.vi"/>
@@ -55,6 +55,8 @@
 			<Item Name="Error 5007 - Unrecognized Error While Processing ProtoBuf Message.vi" Type="VI" URL="../Errors/Error 5007 - Unrecognized Error While Processing ProtoBuf Message.vi"/>
 			<Item Name="Error 5008 - Invalid PWM Channel Number.vi" Type="VI" URL="../Errors/Error 5008 - Invalid PWM Channel Number.vi"/>
 			<Item Name="Error 5009 - Error Opening COM Port.vi" Type="VI" URL="../Errors/Error 5009 - Error Opening COM Port.vi"/>
+			<Item Name="Error 5010 - Empty or Relative Path.vi" Type="VI" URL="../Errors/Error 5010 - Empty or Relative Path.vi"/>
+			<Item Name="Error 5011 - No File Permission.vi" Type="VI" URL="../Errors/Error 5011 - No File Permission.vi"/>
 			<Item Name="Error Handler.vi" Type="VI" URL="../Errors/Error Handler.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -102,6 +104,7 @@
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="Enum - Connection Type.ctl" Type="VI" URL="../TypeDefs/Enum - Connection Type.ctl"/>
+			<Item Name="Enum - Machine State (Save CSV File).ctl" Type="VI" URL="../TypeDefs/Enum - Machine State (Save CSV File).ctl"/>
 			<Item Name="Enum - Machine State.ctl" Type="VI" URL="../TypeDefs/Enum - Machine State.ctl"/>
 			<Item Name="TypeDef - Cluster of DAQiFi Device Properties.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster of DAQiFi Device Properties.ctl"/>
 			<Item Name="TypeDef - Cluster Representing Decoded JSON Message.ctl" Type="VI" URL="../TypeDefs/TypeDef - Cluster Representing Decoded JSON Message.ctl"/>
@@ -123,12 +126,14 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
@@ -155,6 +160,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
